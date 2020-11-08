@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="Joomla! - Open Source Content Management" -->
+<feed xmlns="http://www.w3.org/2005/Atom"  xml:lang="en-gb">
+	<title type="text">me@scottheaton - running</title>
+	<subtitle type="text">me@scottheaton</subtitle>
+	<link rel="alternate" type="text/html" href="http://www.scottheaton.me"/>
+	<id>http://www.scottheaton.me/index.php/2019/running.feed</id>
+	<updated>2020-11-08T07:07:32+00:00</updated>
+	<generator uri="https://www.joomla.org">Joomla! - Open Source Content Management</generator>
+	<link rel="self" type="application/atom+xml" href="http://www.scottheaton.me/index.php/2019/running.feed?type=atom"/>
+	<entry>
+		<title>apr 08 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/apr-08-2019.html"/>
+		<published>2019-12-24T01:00:21+00:00</published>
+		<updated>2019-12-24T01:00:21+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/apr-08-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;apr 08 2019&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;apr 08 2019&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>oct 10 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/oct-10-2019.html"/>
+		<published>2019-12-24T01:10:44+00:00</published>
+		<updated>2019-12-24T01:10:44+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/oct-10-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}oct102019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}oct102019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>oct 18 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/oct-18-2019.html"/>
+		<published>2019-12-24T01:20:24+00:00</published>
+		<updated>2019-12-24T01:20:24+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/oct-18-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}oct182019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}oct182019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>oct 20 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/oct-20-2019.html"/>
+		<published>2019-12-24T01:30:35+00:00</published>
+		<updated>2019-12-24T01:30:35+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/oct-20-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}oct202019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}oct202019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>oct 24 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/oct-24-2019.html"/>
+		<published>2019-12-24T01:40:15+00:00</published>
+		<updated>2019-12-24T01:40:15+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/oct-24-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}oct242019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}oct242019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>oct 26 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/oct-26-2019.html"/>
+		<published>2019-12-24T01:50:45+00:00</published>
+		<updated>2019-12-24T01:50:45+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/oct-26-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}oct262019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}oct262019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>oct 30 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/oct-30-2019.html"/>
+		<published>2019-12-24T02:00:25+00:00</published>
+		<updated>2019-12-24T02:00:25+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/oct-30-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}oct302019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}oct302019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>nov 02 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/nov-02-2019.html"/>
+		<published>2019-12-24T02:10:33+00:00</published>
+		<updated>2019-12-24T02:10:33+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/nov-02-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}nov022019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}nov022019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>nov 12 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/nov-12-2019.html"/>
+		<published>2019-12-24T02:30:11+00:00</published>
+		<updated>2019-12-24T02:30:11+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/nov-12-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}nov122019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}nov122019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+	<entry>
+		<title>nov 22 2019</title>
+		<link rel="alternate" type="text/html" href="http://www.scottheaton.me/index.php/2019/running/nov-22-2019.html"/>
+		<published>2019-12-24T02:40:53+00:00</published>
+		<updated>2019-12-24T02:40:53+00:00</updated>
+		<id>http://www.scottheaton.me/index.php/2019/running/nov-22-2019.html</id>
+		<author>
+			<name>scott heaton</name>
+		</author>
+		<summary type="html">&lt;p&gt;{gpxtrackmap}nov222019.gpx{/gpxtrackmap}&lt;/p&gt;</summary>
+		<content type="html">&lt;p&gt;{gpxtrackmap}nov222019.gpx{/gpxtrackmap}&lt;/p&gt;</content>
+		<category term="running" />
+	</entry>
+</feed>
