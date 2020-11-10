@@ -2046,3 +2046,23 @@ body.contentpane a:hover {
 	position:relative;
 	z-index: 1;
 }
+
+/* Strava iframe */
+
+#strava_frame {
+	background-color: #000000;
+	min-width: 960px;
+}
+
+.strava_frame_container {
+	padding: 24px 0 10px 0;
+    clear: both;
+	margin: auto;
+	display: block;
+	width: 800px;
+	height: 600px;
+	overflow:hidden;
+	position:relative;
+	z-index: 1;
+}
+
