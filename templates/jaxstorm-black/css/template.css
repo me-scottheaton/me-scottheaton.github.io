@@ -2051,7 +2051,7 @@ body.contentpane a:hover {
 
 #strava_frame {
 	background-color: #000000;
-	min-width: 960px;
+	/*min-width: 960px;*/
 }
 
 .strava_frame_container {
@@ -2059,8 +2059,8 @@ body.contentpane a:hover {
     clear: both;
 	margin: auto;
 	display: block;
-	width: 800px;
-	height: 600px;
+	width: 900px;
+	height: 405px;
 	overflow:hidden;
 	position:relative;
 	z-index: 1;
