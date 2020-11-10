@@ -2037,6 +2037,7 @@ body.contentpane a:hover {
 
 .frame_container {
 	padding: 24px 0 10px 0;
+    clear: both;
 	margin: auto;
 	display: block;
 	width: 800px;
