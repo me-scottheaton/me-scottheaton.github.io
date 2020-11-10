@@ -2027,3 +2027,21 @@ body.contentpane a:hover {
 #slides ul.pagination li.current a {
 	background: url(../images/slides_arrows.png) 188px 160px;
 }
+
+/* Data Viz iframe */
+
+#frame {
+	background-color: #000000;
+	min-width: 960px;
+}
+
+.frame_container {
+	padding: 24px 0 10px 0;
+	margin: auto;
+	display: block;
+	width: 800px;
+	height: 600px;
+	overflow:hidden;
+	position:relative;
+	z-index: 1;
+}
