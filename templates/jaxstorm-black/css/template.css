@@ -653,7 +653,7 @@ hr {
 	float: right;
 	line-height: 1.7em;	
 	border-left: 1px solid #333333;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.5);
 	color: #ffffff;
 }
 
@@ -773,7 +773,7 @@ hr {
 	overflow: hidden;
 	margin-top: 75px;
 	margin-bottom: 30px;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.5);
 	color: #ffffff;
 	font-size: 18px;
 }
