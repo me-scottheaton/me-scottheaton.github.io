@@ -32,7 +32,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    text-transform: lowercase;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -568,6 +567,24 @@ hr {
 
 /** Content/Menu Wrap **/
 
+#homepage-content-menu_wrap_bg { /* scott added */
+	background-image: url('../../../images/sampledata/background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 960px;
+	min-height: 460px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+}
+
+#homepage-content-menu_wrap_bg::before { /* scott added */
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.25);
+}
+
 #content-menu_wrap_bg {
 	background-color: #000000;
 	overflow: auto;
@@ -622,6 +639,22 @@ hr {
 	float: left;
 	line-height: 1.7em;
 	border-right: 1px solid #333333;
+}
+
+#home-rightmenu { /* scott added */
+	width: 190px;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 17px;
+	padding-top: 31px;
+	margin-top: 75px;
+	margin-bottom: 30px;
+	margin-left: 13px;
+	float: right;
+	line-height: 1.7em;	
+	border-left: 1px solid #333333;
+	background: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
 }
 
 #rightmenu {
@@ -731,6 +764,18 @@ hr {
 	padding-top: 20px;
 	overflow: hidden;
 	margin-bottom: 30px;
+}
+
+#homepage-content-w2 {  /** left or right menu visible **/ /* scott added */
+	width: 678px;
+	float: left;
+	padding-top: 20px;
+	overflow: hidden;
+	margin-top: 75px;
+	margin-bottom: 30px;
+	background: rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	font-size: 18px;
 }
 
 #content-w2 {  /** left or right menu visible **/
