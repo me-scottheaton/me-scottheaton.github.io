@@ -725,6 +725,19 @@ hr {
 	font-weight:normal;
 }
 
+.home-moduletable { /* scott added */
+	overflow: hidden;
+	margin-bottom: 16px;
+	padding-right: 12px;
+}
+
+
+#topnav div.home-moduletable { /* scott added */
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 0px;	
+}
+
 
 .moduletable {
 	overflow: hidden;
