@@ -463,7 +463,7 @@ hr {
 }
 
 #topmenu ul { 
-	float: right;
+	float: left; /* scott modified, was float: right */
 	padding: 0;
 	margin: 0;
 	list-style: none;
@@ -476,8 +476,8 @@ hr {
 	padding-bottom: 10px;
 	padding-left: 14px;
 	padding-right: 14px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 3px; /* scott modified, was 10px */
+	margin-right: 3px; /* scott modified, was 10px */
 	margin-bottom: 1px;
 	text-decoration:none;
 }
@@ -504,7 +504,7 @@ hr {
 	width: 162px;
 	left: -999em; /* "display: none" not seen by screen readers */
 	border: 0;
-	margin-left: 10px;
+	margin-left: 3px; /* scott modified, was 10px */
 	z-index:100;
 	
 }
