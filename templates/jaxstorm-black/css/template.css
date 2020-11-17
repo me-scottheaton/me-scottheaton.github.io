@@ -576,7 +576,8 @@ hr {
 	overflow: auto;
 	min-width: 960px;
 	min-height: 460px;
-	margin-bottom: -1px; /* iPhone/iPad fix */
+	/*margin-bottom: -1px; /* iPhone/iPad fix */
+	margin-bottom: -50px;
 }
 
 #homepage-content-menu_wrap_bg::before { /* scott added */
@@ -598,8 +599,172 @@ hr {
 	margin: auto;
 }
 
+#all-stats { /* scott added */
+	margin: auto;
+	background-image: url('../../../images/sampledata/stats_background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 960px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
 
+#all-stats::before { /* scott added */
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.25);
+}
 
+#all-stats-0 { /* scott added */
+    padding-top: 75px;
+    color: #ffffff;
+    font-size: 3.375rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-1 { /* scott added */
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-1-text { /* scott added */
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-2 { /* scott added */
+    margin-left: -500px;
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-2-text { /* scott added */
+    margin-left: -500px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-3 { /* scott added */
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 553px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-3-text { /* scott added */
+    margin-top: -23px;
+    margin-left: -200px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-4 { /* scott added */
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 700px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-4-text { /* scott added */
+    margin-top: -23px;
+    margin-left: 71px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-5 { /* scott added */
+    position: absolute;
+    margin-top: -44px;
+    margin-left: 834px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-5-text { /* scott added */
+    margin-top: -24px;
+    margin-left: 368px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-6 { /* scott added */
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 420px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-6-text { /* scott added */
+    margin-top: 61px;
+    margin-left: -343px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-7 { /* scott added */
+    position: absolute;
+    margin-top: -46px;
+    margin-left: 770px;
+    padding-top: 0px;
+    color: #ffffff;
+    font-size: 1.575rem;
+    text-align: center;
+    display: block;
+}
+
+#all-stats-7-text { /* scott added */
+    margin-top: -25px;
+    margin-left: 370px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 1.005rem;
+    text-align: center;
+    display: block;
+}
 
 /** Breadcrumbs **/
 
@@ -647,14 +812,20 @@ hr {
 	padding: 0px;
 	padding-left: 17px;
 	padding-top: 31px;
-	margin-top: 25px;
+	margin-top: 24px;
 	margin-bottom: 30px;
 	margin-left: 13px;
 	float: right;
-	line-height: 1.7em;	
-	border-left: 1px solid #333333;
-	background: rgba(0, 0, 0, 0.5);
+	line-height: 1.7em;
+	/* border-left: 1px solid #333333; */
+	background: rgba(0, 0, 0, 0.45);
 	color: #ffffff;
+}
+
+#home-rightmenu::before { /* scott added */
+    content: "";
+    position: absolute;
+    background-color: rgba(0,0,0,0.25);
 }
 
 #rightmenu {
@@ -727,7 +898,8 @@ hr {
 
 .home-moduletable { /* scott added */
 	overflow: hidden;
-	margin-bottom: 16px;
+    margin-top: -10px;
+	margin-bottom: 0px;
 	padding-right: 12px;
 }
 
