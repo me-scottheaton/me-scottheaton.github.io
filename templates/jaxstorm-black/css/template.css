@@ -619,7 +619,25 @@ hr {
 	background-color: rgba(0,0,0,0.25);
 }
 
-#latest-header { /* scott added */
+#latest-header-table { /* latest header */
+	margin-left: 595px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#latest-header-data {
+	display: table-row;
+}
+
+#latest-header-content {
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#latest-content { /* scott added */
 	margin-left: 100px;
 	margin-top: 120px;
 	padding-left: 10px;
@@ -635,7 +653,7 @@ hr {
 	color: #ffffff;
 }
 
-#latest-header::before { /* scott added */
+#latest-content::before { /* scott added */
 	content: "";
 	position: absolute;
 	background-color: rgba(0,0,0,0.50);
@@ -658,7 +676,7 @@ hr {
 	display: block;
 }
 
-#latest-table {
+#latest-table { /* div table for distance, moving time, pace */
 	display: table;
 }
 
@@ -702,151 +720,108 @@ hr {
     background-color: rgba(0,0,0,0.25);
 }
 
-#all-stats-0 { /* scott added */
-    padding-top: 75px;
-    color: #ffffff;
-    font-size: 3.375rem;
-    text-align: center;
-    display: block;
+#allstats-header-table { /* div table for distance, moving time, pace, etc */
+	margin-left: 563px;
+	display: table;
+	padding-top: 95px;
+	display: block;
 }
 
-#all-stats-1 { /* scott added */
-    padding-top: 30px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-header-data {
+	display: table-row;
 }
 
-#all-stats-1-text { /* scott added */
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-header-content {
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
 }
 
-#all-stats-2 { /* scott added */
-    margin-left: -500px;
-    padding-top: 20px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-days-table { /* div table for total time stats */
+	margin-left: 525px;
+	display: table;
+	padding-top: 35px;
+	display: block;
 }
 
-#all-stats-2-text { /* scott added */
-    margin-left: -500px;
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-days-data {
+	display: table-row;
 }
 
-#all-stats-3 { /* scott added */
-    position: absolute;
-    margin-top: -42px;
-    margin-left: 553px;
-    padding-top: 0px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-days-content {
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
 }
 
-#all-stats-3-text { /* scott added */
-    margin-top: -23px;
-    margin-left: -200px;
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-days-name {
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
 }
 
-#all-stats-4 { /* scott added */
-    position: absolute;
-    margin-top: -42px;
-    margin-left: 700px;
-    padding-top: 0px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-middle-table { /* div table for rides, pictures, KOMs, activities stats */
+	margin-left: 385px;
+	display: table;
+	padding-top: 35px;
+	display: block;
 }
 
-#all-stats-4-text { /* scott added */
-    margin-top: -23px;
-    margin-left: 71px;
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-middle-data {
+	display: table-row;
 }
 
-#all-stats-5 { /* scott added */
-    position: absolute;
-    margin-top: -44px;
-    margin-left: 834px;
-    padding-top: 0px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-middle-content {
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-#all-stats-5-text { /* scott added */
-    margin-top: -24px;
-    margin-left: 368px;
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-middle-name {
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-#all-stats-6 { /* scott added */
-    position: absolute;
-    margin-top: 38px;
-    margin-left: 420px;
-    padding-top: 0px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-total-table { /* div table for total distance, elevation stats */
+	margin-left: 410px;
+	display: table;
+	padding-top: 35px;
+	display: block;
 }
 
-#all-stats-6-text { /* scott added */
-    margin-top: 61px;
-    margin-left: -343px;
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-total-data {
+	display: table-row;
 }
 
-#all-stats-7 { /* scott added */
-    position: absolute;
-    margin-top: -46px;
-    margin-left: 770px;
-    padding-top: 0px;
-    color: #ffffff;
-    font-size: 1.575rem;
-    text-align: center;
-    display: block;
+#allstats-total-content {
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-#all-stats-7-text { /* scott added */
-    margin-top: -25px;
-    margin-left: 370px;
-    padding-top: 5px;
-    color: #ffffff;
-    font-size: 1.005rem;
-    text-align: center;
-    display: block;
+#allstats-total-name {
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 /** Breadcrumbs **/
