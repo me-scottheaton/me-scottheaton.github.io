@@ -671,6 +671,16 @@ hr {
 	padding-right: 35px;
 }
 
+#latest-button-content {
+	display: table-cell;
+    height: 1%;
+}
+
+#latest-button-button {
+	display: table-cell;
+	height: 99%;
+}
+
 #all-stats { /* scott added */
 	margin: auto;
 	margin-top: -33px;
