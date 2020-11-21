@@ -680,18 +680,18 @@ hr {
 	display: table;
 }
 
-#latest-data {
+.latest-data {
 	display: table-row;
 }
 
-#latest-data-content {
+.latest-data-content {
 	display: table-cell;
 	padding-right: 35px;
 }
 
 #latest-button-content {
 	display: table-cell;
-    height: 1%;
+	height: 1%;
 }
 
 #latest-button-button {
@@ -745,7 +745,7 @@ hr {
 	display: block;
 }
 
-#allstats-days-data {
+.allstats-days-data {
 	display: table-row;
 }
 
@@ -771,7 +771,7 @@ hr {
 	display: block;
 }
 
-#allstats-middle-data {
+.allstats-middle-data {
 	display: table-row;
 }
 
@@ -801,7 +801,7 @@ hr {
 	display: block;
 }
 
-#allstats-total-data {
+.allstats-total-data {
 	display: table-row;
 }
 
