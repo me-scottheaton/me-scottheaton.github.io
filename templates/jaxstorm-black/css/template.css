@@ -775,7 +775,7 @@ hr {
 	display: table-row;
 }
 
-#allstats-middle-content {
+.allstats-middle-content {
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -784,7 +784,7 @@ hr {
 	padding-right: 30px;
 }
 
-#allstats-middle-name {
+.allstats-middle-name {
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
@@ -805,7 +805,7 @@ hr {
 	display: table-row;
 }
 
-#allstats-total-content {
+.allstats-total-content {
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -814,7 +814,7 @@ hr {
 	padding-right: 30px;
 }
 
-#allstats-total-name {
+.allstats-total-name {
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
