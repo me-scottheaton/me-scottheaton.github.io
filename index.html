@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 <head>
@@ -69,7 +70,7 @@
 						
 									<a href="index.html">me@scottheaton</a><br/>
 				
-									<div class="sitedescription">  </div>
+									<div class="sitedescription">  </div>
 				
 			
 	  		</div>
@@ -157,7 +158,7 @@
 
 				<h3 style="text-align: center;">A mashup site with some of my bike -> rides, Strava GPS &amp; pictures:</h3><br>
 				<ul>
-					<li>This was quickly developed using the <a href="http://joomla.org/" target="_blank" rel="noopener noreferrer">Joomla Content Management System (CMS)</a> with the <a href="http://www.hurricanemedia.net/portfolio/jaxstorm-black-hm03j1-7/" target="_blank" rel="noopener noreferrer">JaxStorm-Black template</a>, which uses <a href="https://slidesjs.com/" target="_blank" rel="noopener noreferrer">SlidesJS</a> Jquery plugin for the image gallery effects. I built a custom joomla module in object oriented PHP to get the date from the page name in the URL and simply match it with all photos in a directory which are named with the same date. The resulting images array then gets passed to the SlidesJS output. Voilà, dynamique!</li>
+					<li>This was quickly developed using the <a href="http://joomla.org/" target="_blank" rel="noopener noreferrer">Joomla Content Management System (CMS)</a> with the <a href="http://www.hurricanemedia.net/portfolio/jaxstorm-black-hm03j1-7/" target="_blank" rel="noopener noreferrer">JaxStorm-Black template</a>, which uses <a href="https://slidesjs.com/" target="_blank" rel="noopener noreferrer">SlidesJS</a> Jquery plugin for the image gallery effects. I built a custom joomla module in object oriented PHP to get the date from the page name in the URL and simply match it with all photos in a directory which are named with the same date. The resulting images array then gets passed to the SlidesJS output. Voilà, dynamique!</li>
 				<li>
 					<ul>
 						<li>And it has been moved to github pages as a static site, by dumping the joomla html from my dev environment.</li>
@@ -198,21 +199,21 @@
 	 	 </div>
 	 	 
 	 	 <div id="latest-content"><h3>Latest activity</h3>
-	 	 	<div id="latest-date">Sun Nov 01 2020, 02:26:43 pm</div>
-	 	 	<div id="latest-type-location">afternoon run - Eugene Oregon</div>
+	 	 	<div id="latest-date"><!--date-->Sun Nov 01 2020, 02:26:43 pm<!--/date--></div>
+	 	 	<div id="latest-type-location"><!--type-->afternoon run  - Eugene Oregon</div>
 	 	 		<div id="latest-table">
 		 	 		<div class="latest-data">
-						<div class="latest-data-content">3.01 miles</div>
-						<div class="latest-data-content">00:29:33</div>
-						<div class="latest-data-content">9:50</div>
+						<div class="latest-data-content"><!--distance--> 3.01 miles <!--/distance--></div>
+						<div class="latest-data-content"><!--time--> 00:29:33 <!--/time--></div>
+						<div class="latest-data-content"><!--avgdata--> 9:50 <!--/avgdata--></div>
 						<div id="latest-button-content">&nbsp;</div>
 					</div>
 		 	 		<div class="latest-data">
 						<div class="latest-data-content">Distance</div>
 						<div class="latest-data-content">Moving Time</div>
-						<div class="latest-data-content">Pace</div>
+						<div class="latest-data-content"><!--avgtext-->pace<!--/avgtext--></div>
 						<div id="latest-button-button">
-                            <button class="strava-button strava-black strava-round-xxlarge" onclick="window.open('https://www.strava.com/activities/4273993379');">details</button>
+                            <!--button--><button class="strava-button strava-black strava-round-xxlarge" onclick="window.open('https://www.strava.com/activities/4273993379');">details</button><!--/button-->
                         </div>
 		 	 		</div>
 			 	 </div>
@@ -229,7 +230,7 @@
 	 	 
 			<div id="allstats-days-table">
 				<div class="allstats-days-data">
-					<div id="allstats-days-content">14 days, 10 hours, 33 min</div>
+					<div id="allstats-days-content"><!--totaltime--> 14 days, 10 hours, 33 min <!--/totaltime--></div>
 				</div>
 				<div class="allstats-days-data">
 					<div id="allstats-days-name">Total riding time</div>
@@ -238,10 +239,10 @@
 	 	 
 			<div id="allstats-middle-table">
 				<div class="allstats-middle-data">
-					<div class="allstats-middle-content">147</div>
-					<div class="allstats-middle-content">513</div>
-					<div class="allstats-middle-content">3</div>
-					<div class="allstats-middle-content">168</div>
+					<div class="allstats-middle-content"><!--totalrides--> 147 <!--/totalrides--></div>
+					<div class="allstats-middle-content"><!--totalpictures--> 813 <!--/totalpictures--></div>
+					<div class="allstats-middle-content"><!--totalkoms--> 3 <!--/totalkoms--></div>
+					<div class="allstats-middle-content"><!--totalactivities--> 168 <!--/totalactivities--></div>
 				</div>
 				<div class="allstats-middle-data">
 					<div class="allstats-middle-name">Total rides</div>
@@ -253,8 +254,8 @@
 			
 			<div id="allstats-total-table">
 				<div class="allstats-total-data">
-					<div class="allstats-total-content">5,717.96 miles</div>
-					<div class="allstats-total-content">151,572.96 feet</div>
+					<div class="allstats-total-content"><!--totaldistance--> 5,717.96 miles <!--/totaldistance--></div>
+					<div class="allstats-total-content"><!--totalelevation--> 151,572.96 feet <!--/totalelevation--></div>
 				</div>
 				<div class="allstats-total-data">
 					<div class="allstats-total-name">Total riding distance</div>
@@ -274,7 +275,7 @@
 	<!-- Banner/Links -->
 	<div id="box_wrap">
 		<div id="box_placeholder">
-			<div id="box1"><h3>about</h3>... me. Me riding my bike, & running. A one man show, yes.</div>
+			<div id="box1"><h3>about</h3>... me. Me riding my bike, &amp; running. A one man show, yes.</div>
 			<div id="box2"><h3>contact</h3>If for some odd reason you need to contact me, you can drop me an email:<br><a href="mailto:scott.heaton@gmail.com">scott.heaton@gmail.com</a></div>
 			<div id="box3"><h3>elsewhere</h3><a href="https://www.strava.com/athletes/23549044" target="_blank">Strava</a>, <a href="https://www.instagram.com/scottiheaton/" target="_blank">Instagram</a></div>
 		</div>
