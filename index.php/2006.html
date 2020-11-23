@@ -14,23 +14,6 @@
 	<script src="../media/jui/js/jquery-noconflict8658.js?43344ad1d5b392b2c9d0bffd448c3d07"></script>
 	<script src="../media/jui/js/jquery-migrate.min8658.js?43344ad1d5b392b2c9d0bffd448c3d07"></script>
 	<script src="../media/jui/js/bootstrap.min8658.js?43344ad1d5b392b2c9d0bffd448c3d07"></script>
-	<script>
-jQuery(function($) {
-			 $('.hasTip').each(function() {
-				var title = $(this).attr('title');
-				if (title) {
-					var parts = title.split('::', 2);
-					var mtelement = document.id(this);
-					mtelement.store('tip:title', parts[0]);
-					mtelement.store('tip:text', parts[1]);
-				}
-			});
-			var JTooltips = new Tips($('.hasTip').get(), {"maxTitleChars": 50,"fixed": false});
-		});
-jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers); function initPopovers (event, container) { $(container || document).find(".hasPopover").popover({"html": true,"trigger": "hover focus","container": "body"});} });
-jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
-	</script>
-
     <link rel="sitemap" type="application/xml" title="Sitemap" href="../sitemap.xml" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154901618-1"></script>
@@ -173,37 +156,16 @@ jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips
 
 	<div class="cat-items">
 		
-
-<form action="http://www.scottheaton.me/index.php/2006.html" method="post" name="adminForm" id="adminForm">
-	
-			<div class="display-limit">
-			Display #&#160;
-			<select id="limit" name="limit" class="inputbox input-mini" size="1" onchange="this.form.submit()">
-	<option value="5">5</option>
-	<option value="10" selected="selected">10</option>
-	<option value="15">15</option>
-	<option value="20">20</option>
-	<option value="25">25</option>
-	<option value="30">30</option>
-	<option value="50">50</option>
-	<option value="100">100</option>
-	<option value="0">All</option>
-</select>
-		</div>
-	
-	
 	<div class="clr"></div>
 
 	<table class="category">
 				<thead>
 			<tr>
 
-				<th class="list-title" id="tableOrdering">
-					<a href="#" onclick="Joomla.tableOrdering('a.title','asc','');return false;" class="hasPopover" title="Title" data-content="Select to sort by this column" data-placement="top">Title</a>				</th>
+				<th class="list-title" id="tableOrdering">Title				</th>
 
 				
-								<th class="list-author" id="tableOrdering3">
-					<a href="#" onclick="Joomla.tableOrdering('author','asc','');return false;" class="hasPopover" title="Author" data-content="Select to sort by this column" data-placement="top">Author</a>				</th>
+								<th class="list-author" id="tableOrdering3">Author				</th>
 				
 							</tr>
 		</thead>
@@ -370,30 +332,74 @@ jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips
 					
 				
 			</tr>
+
+						<tr class="cat-list-row0">
+
+				
+					<td class="list-title">
+						<a href="2006/jun-24-2006.html">
+							jun 24 2006</a>
+					</td>
+
+					
+										<td class="list-author">
+																				
+															Written by Scott Heaton																		</td>
+					
+					
+				
+			</tr>
+						<tr class="cat-list-row1">
+
+				
+					<td class="list-title">
+						<a href="2006/jun-25-2006.html">
+							jun 25 2006</a>
+					</td>
+
+					
+										<td class="list-author">
+																				
+															Written by Scott Heaton																		</td>
+					
+					
+				
+			</tr>
+						<tr class="cat-list-row0">
+
+				
+					<td class="list-title">
+						<a href="2006/jul-03-2006.html">
+							jul 03 2006</a>
+					</td>
+
+					
+										<td class="list-author">
+																				
+															Written by Scott Heaton																		</td>
+					
+					
+				
+			</tr>
+						<tr class="cat-list-row1">
+
+				
+					<td class="list-title">
+						<a href="2006/jul-08-2006.html">
+							jul 08 2006</a>
+					</td>
+
+					
+										<td class="list-author">
+																				
+															Written by Scott Heaton																		</td>
+					
+					
+				
+			</tr>
 					</tbody>
 	</table>
 
-
-		<div class="pagination">
-
-				 	<p class="counter">
-				Page 1 of 2			</p>
-		
-		<ul>
-	<li class="pagination-start"><span class="pagenav">Start</span></li>
-	<li class="pagination-prev"><span class="pagenav">Prev</span></li>
-			<li><span class="pagenav">1</span></li>			<li><a href="200676c3.html?start=10" class="pagenav">2</a></li>		<li class="pagination-next"><a title="Next" href="200676c3.html?start=10" class="hasTooltip pagenav">Next</a></li>
-	<li class="pagination-end"><a title="End" href="200676c3.html?start=10" class="hasTooltip pagenav">End</a></li>
-</ul>
-	</div>
-	
-	<div>
-		<input type="hidden" name="task" value="" />
-		<input type="hidden" name="filter_order" value="" />
-		<input type="hidden" name="filter_order_Dir" value="" />
-		<input type="hidden" name="limitstart" value="" />
-	</div>
-</form>
 	</div>
 
 </section>
@@ -418,7 +424,7 @@ jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips
 	<!-- Banner/Links -->
 	<div id="box_wrap">
 		<div id="box_placeholder">
-			<div id="box1"><h3>about</h3>... me. Me riding my bike, & running. A one man show, yes.</div>
+			<div id="box1"><h3>about</h3>... me. Me riding my bike, &amp; running. A one man show, yes.</div>
 			<div id="box2"><h3>contact</h3>If for some odd reason you need to contact me, you can drop me an email:<br><a href="mailto:scott.heaton@gmail.com">scott.heaton@gmail.com</a></div>
 			<div id="box3"><h3>elsewhere</h3><a href="https://www.strava.com/athletes/23549044" target="_blank">Strava</a>, <a href="https://www.instagram.com/scottiheaton/" target="_blank">Instagram</a></div>
 		</div>

@@ -14,23 +14,6 @@
 	<script src="../../media/jui/js/jquery-noconflict8658.js?43344ad1d5b392b2c9d0bffd448c3d07"></script>
 	<script src="../../media/jui/js/jquery-migrate.min8658.js?43344ad1d5b392b2c9d0bffd448c3d07"></script>
 	<script src="../../media/jui/js/bootstrap.min8658.js?43344ad1d5b392b2c9d0bffd448c3d07"></script>
-	<script>
-jQuery(function($) {
-			 $('.hasTip').each(function() {
-				var title = $(this).attr('title');
-				if (title) {
-					var parts = title.split('::', 2);
-					var mtelement = document.id(this);
-					mtelement.store('tip:title', parts[0]);
-					mtelement.store('tip:text', parts[1]);
-				}
-			});
-			var JTooltips = new Tips($('.hasTip').get(), {"maxTitleChars": 50,"fixed": false});
-		});
-jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers); function initPopovers (event, container) { $(container || document).find(".hasPopover").popover({"html": true,"trigger": "hover focus","container": "body"});} });
-	</script>
-
-
     <link rel="sitemap" type="application/xml" title="Sitemap" href="../../sitemap.xml" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154901618-1"></script>
@@ -173,25 +156,6 @@ jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers
 
 
 	<div class="cat-items">
-		
-
-<form action="http://www.scottheaton.me/index.php/2019/cycling.html" method="post" name="adminForm" id="adminForm">
-	
-			<div class="display-limit">
-			Display #&#160;
-			<select id="limit" name="limit" class="inputbox input-mini" size="1" onchange="this.form.submit()">
-	<option value="5">5</option>
-	<option value="10" selected="selected">10</option>
-	<option value="15">15</option>
-	<option value="20">20</option>
-	<option value="25">25</option>
-	<option value="30">30</option>
-	<option value="50">50</option>
-	<option value="100">100</option>
-	<option value="0">All</option>
-</select>
-		</div>
-	
 	
 	<div class="clr"></div>
 
@@ -199,12 +163,10 @@ jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers
 				<thead>
 			<tr>
 
-				<th class="list-title" id="tableOrdering">
-					<a href="#" onclick="Joomla.tableOrdering('a.title','asc','');return false;" class="hasPopover" title="Title" data-content="Select to sort by this column" data-placement="top">Title</a>				</th>
+				<th class="list-title" id="tableOrdering">Title				</th>
 
 				
-								<th class="list-author" id="tableOrdering3">
-					<a href="#" onclick="Joomla.tableOrdering('author','asc','');return false;" class="hasPopover" title="Author" data-content="Select to sort by this column" data-placement="top">Author</a>				</th>
+								<th class="list-author" id="tableOrdering3">Author				</th>
 				
 							</tr>
 		</thead>
@@ -341,17 +303,6 @@ jQuery(function($){ initPopovers(); $("body").on("subform-row-add", initPopovers
 			</tr>
 					</tbody>
 	</table>
-
-
-	
-	<div>
-		<input type="hidden" name="task" value="" />
-		<input type="hidden" name="filter_order" value="" />
-		<input type="hidden" name="filter_order_Dir" value="" />
-		<input type="hidden" name="limitstart" value="" />
-	</div>
-</form>
-	</div>
 
 </section>
 		</div>
