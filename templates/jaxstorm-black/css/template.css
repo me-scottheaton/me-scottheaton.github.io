@@ -626,11 +626,11 @@ hr {
 	display: block;
 }
 
-#latest-header-data { /* scott added */
+#latest-header-table-row { /* scott added */
 	display: table-row;
 }
 
-#latest-header-content { /* scott added */
+#latest-header-table-cell { /* scott added */
 	display: table-cell;
 	font-size: 3.375rem;
 	text-align: center;
@@ -765,7 +765,7 @@ hr {
 	padding-right: 35px;
 }
 
-#all-stats { /* scott added */
+#total-stats { /* scott added */
 	margin: auto;
 	margin-top: -33px;
 	background-image: url('../../../images/sampledata/stats_background.jpg');
@@ -780,49 +780,49 @@ hr {
 	padding-bottom: 75px;
 }
 
-#all-stats::before { /* scott added */
+#total-stats::before { /* scott added */
     content: "";
     position: absolute;
     background-color: rgba(0,0,0,0.25);
 }
 
-#allstats-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
+#total-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
 	margin-left: 563px;
 	display: table;
 	padding-top: 95px;
 	display: block;
 }
 
-#allstats-header-data { /* scott added */
+#total-header-table-row { /* scott added */
 	display: table-row;
 }
 
-#allstats-header-content { /* scott added */
+#total-header-table-cell { /* scott added */
 	display: table-cell;
 	font-size: 3.375rem;
 	text-align: center;
 	color: #ffffff;
 }
 
-#allstats-days-table { /* div table for total time stats */ /* scott added */
+#total-days-table { /* div table for total time stats */ /* scott added */
 	margin-left: 525px;
 	display: table;
 	padding-top: 35px;
 	display: block;
 }
 
-.allstats-days-data { /* scott added */
+.total-days-table-row { /* scott added */
 	display: table-row;
 }
 
-#allstats-days-content { /* scott added */
+#total-days-data-cell { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
 	color: #ffffff;
 }
 
-#allstats-days-name { /* scott added */
+#total-days-name-cell { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
@@ -830,18 +830,18 @@ hr {
 	color: #ffffff;
 }
 
-#allstats-middle-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
+#total-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
 	margin-left: 385px;
 	display: table;
 	padding-top: 35px;
 	display: block;
 }
 
-.allstats-middle-data { /* scott added */
+.total-activities-table-row { /* scott added */
 	display: table-row;
 }
 
-.allstats-middle-content { /* scott added */
+.total-activities-data-cell { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -850,7 +850,7 @@ hr {
 	padding-right: 30px;
 }
 
-.allstats-middle-name { /* scott added */
+.total-activities-name-cell { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
@@ -860,18 +860,18 @@ hr {
 	padding-right: 30px;
 }
 
-#allstats-total-table { /* div table for total distance, elevation stats */ /* scott added */
+#total-miles-table { /* div table for total distance, elevation stats */ /* scott added */
 	margin-left: 427px;
 	display: table;
 	padding-top: 35px;
 	display: block;
 }
 
-.allstats-total-data { /* scott added */
+.total-miles-table-row { /* scott added */
 	display: table-row;
 }
 
-.allstats-total-content { /* scott added */
+.total-miles-data-cell { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -880,7 +880,7 @@ hr {
 	padding-right: 30px;
 }
 
-.allstats-total-name { /* scott added */
+.total-miles-name-cell { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
