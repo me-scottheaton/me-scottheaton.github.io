@@ -651,7 +651,7 @@ hr {
 	padding-right: 10px;
 }
 
-#latest-content { /* scott added */
+#latest-activity { /* scott added */
 	margin-left: 100px;
 	margin-top: 120px;
 	padding-left: 10px;
@@ -667,7 +667,7 @@ hr {
 	color: #ffffff;
 }
 
-#latest-content::before { /* scott added */
+#latest-activity::before { /* scott added */
 	content: "";
 	position: absolute;
 	background-color: rgba(0,0,0,0.50);
@@ -694,21 +694,21 @@ hr {
 	display: table;
 }
 
-.latest-data { /* scott added */
+.latest-table-row { /* scott added */
 	display: table-row;
 }
 
-.latest-data-content { /* scott added */
+.latest-table-cell { /* scott added */
 	display: table-cell;
 	padding-right: 35px;
 }
 
-#latest-button-content { /* scott added */
+#latest-button-space { /* scott added */
 	display: table-cell;
 	height: 1%;
 }
 
-.latest-button-button { /* scott added */
+.latest-table-button { /* scott added */
 	display: table-cell;
 	height: 99%;
 }
@@ -756,11 +756,11 @@ hr {
 	display: table;
 }
 
-.kom-data { /* scott added */
+.kom-table-row { /* scott added */
 	display: table-row;
 }
 
-.kom-data-content { /* scott added */
+.kom-table-cell { /* scott added */
 	display: table-cell;
 	padding-right: 35px;
 }
