@@ -619,22 +619,36 @@ hr {
 	background-color: rgba(0,0,0,0.25);
 }
 
-#latest-header-table { /* latest header */
+#latest-header-table { /* latest header */  /* scott added */
 	margin-left: 595px;
 	display: table;
 	padding-top: 95px;
 	display: block;
 }
 
-#latest-header-data {
+#latest-header-data { /* scott added */
 	display: table-row;
 }
 
-#latest-header-content {
+#latest-header-content { /* scott added */
 	display: table-cell;
 	font-size: 3.375rem;
 	text-align: center;
 	color: #ffffff;
+}
+
+/* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
+#latest-container-table {
+	display: table;
+}
+
+.latest-container-row { /* scott added */
+	display: table-row;
+}
+
+.latest-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
 }
 
 #latest-content { /* scott added */
@@ -676,27 +690,79 @@ hr {
 	display: block;
 }
 
-#latest-table { /* div table for distance, moving time, pace */
+#latest-table { /* div table for distance, moving time, pace */  /* scott added */
 	display: table;
 }
 
-.latest-data {
+.latest-data { /* scott added */
 	display: table-row;
 }
 
-.latest-data-content {
+.latest-data-content { /* scott added */
 	display: table-cell;
 	padding-right: 35px;
 }
 
-#latest-button-content {
+#latest-button-content { /* scott added */
 	display: table-cell;
 	height: 1%;
 }
 
-#latest-button-button {
+#latest-button-button { /* scott added */
 	display: table-cell;
 	height: 99%;
+}
+
+#kom-content { /* scott added */
+	margin-left: 20px;
+	margin-top: 120px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 380px;
+	float: left;
+	line-height: 1.9em;
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+#kom-content::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+#kom-date { /* scott added */
+	padding-top: 8px;
+	line-height: 1.2em;
+}
+
+#kom-type-location { /* scott added */
+	padding-bottom: 8px;
+}
+
+#kom-title { /* scott added */
+	padding-top: 95px;
+	color: #ffffff;
+	font-size: 3.375rem;
+	text-align: center;
+	display: block;
+}
+
+#kom-table { /* scott added */
+	display: table;
+}
+
+.kom-data { /* scott added */
+	display: table-row;
+}
+
+.kom-data-content { /* scott added */
+	display: table-cell;
+	padding-right: 35px;
 }
 
 #all-stats { /* scott added */
@@ -720,43 +786,43 @@ hr {
     background-color: rgba(0,0,0,0.25);
 }
 
-#allstats-header-table { /* div table for distance, moving time, pace, etc */
+#allstats-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
 	margin-left: 563px;
 	display: table;
 	padding-top: 95px;
 	display: block;
 }
 
-#allstats-header-data {
+#allstats-header-data { /* scott added */
 	display: table-row;
 }
 
-#allstats-header-content {
+#allstats-header-content { /* scott added */
 	display: table-cell;
 	font-size: 3.375rem;
 	text-align: center;
 	color: #ffffff;
 }
 
-#allstats-days-table { /* div table for total time stats */
+#allstats-days-table { /* div table for total time stats */ /* scott added */
 	margin-left: 525px;
 	display: table;
 	padding-top: 35px;
 	display: block;
 }
 
-.allstats-days-data {
+.allstats-days-data { /* scott added */
 	display: table-row;
 }
 
-#allstats-days-content {
+#allstats-days-content { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
 	color: #ffffff;
 }
 
-#allstats-days-name {
+#allstats-days-name { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
@@ -764,18 +830,18 @@ hr {
 	color: #ffffff;
 }
 
-#allstats-middle-table { /* div table for rides, pictures, KOMs, activities stats */
+#allstats-middle-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
 	margin-left: 385px;
 	display: table;
 	padding-top: 35px;
 	display: block;
 }
 
-.allstats-middle-data {
+.allstats-middle-data { /* scott added */
 	display: table-row;
 }
 
-.allstats-middle-content {
+.allstats-middle-content { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -784,7 +850,7 @@ hr {
 	padding-right: 30px;
 }
 
-.allstats-middle-name {
+.allstats-middle-name { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
@@ -794,18 +860,18 @@ hr {
 	padding-right: 30px;
 }
 
-#allstats-total-table { /* div table for total distance, elevation stats */
+#allstats-total-table { /* div table for total distance, elevation stats */ /* scott added */
 	margin-left: 427px;
 	display: table;
 	padding-top: 35px;
 	display: block;
 }
 
-.allstats-total-data {
+.allstats-total-data { /* scott added */
 	display: table-row;
 }
 
-.allstats-total-content {
+.allstats-total-content { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -814,7 +880,7 @@ hr {
 	padding-right: 30px;
 }
 
-.allstats-total-name {
+.allstats-total-name { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;

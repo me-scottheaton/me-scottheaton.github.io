@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
 <head>
@@ -161,8 +160,8 @@
 					<li>This was quickly developed using the <a href="http://joomla.org/" target="_blank" rel="noopener noreferrer">Joomla Content Management System (CMS)</a> with the <a href="http://www.hurricanemedia.net/portfolio/jaxstorm-black-hm03j1-7/" target="_blank" rel="noopener noreferrer">JaxStorm-Black template</a>, which uses <a href="https://slidesjs.com/" target="_blank" rel="noopener noreferrer">SlidesJS</a> Jquery plugin for the image gallery effects. I built a custom joomla module in object oriented PHP to get the date from the page name in the URL and simply match it with all photos in a directory which are named with the same date. The resulting images array then gets passed to the SlidesJS output. Voilà, dynamique!</li>
 				<li style="list-style: none;">
 					<ul>
-						<li>The above 'video' is a data viz created from the GPX file of one of my recent rides.</li>
-						<li>The stats below are compiled by using the <a href="https://github.com/brianwthomas/strava_js" target="_blank" rel="noopener noreferrer">Strava API</a> in a local dev environment running <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Node.js</a> and <a href="https://www.apachefriends.org/index.html" target="_blank" rel="noopener noreferrer">XAMPP</a>.</li>
+						<li>The above 'video' is a data viz created from the GPS file data from one of my recent rides.</li>
+						<li>The stats below are compiled by using the <a href="https://github.com/brianwthomas/strava_js" target="_blank" rel="noopener noreferrer">Strava API</a> in my local dev environment which is running <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">Node.js</a> and <a href="https://www.apachefriends.org/index.html" target="_blank" rel="noopener noreferrer">XAMPP</a>.</li>
 
 					</ul>
 				</li>
@@ -199,26 +198,57 @@
 	 	 	 </div>
 	 	 </div>
 	 	 
-	 	 <div id="latest-content"><h3>Latest activity</h3>
-	 	 	<div id="latest-date"><!--date-->Sun Nov 01 2020, 02:26:43 pm<!--/date--></div>
-	 	 	<div id="latest-type-location"><!--type-->afternoon run  - Eugene Oregon</div>
-	 	 		<div id="latest-table">
-		 	 		<div class="latest-data">
-						<div class="latest-data-content"><!--distance--> 3.01 miles <!--/distance--></div>
-						<div class="latest-data-content"><!--time--> 00:29:33 <!--/time--></div>
-						<div class="latest-data-content"><!--avgdata--> 9:50 <!--/avgdata--></div>
-						<div id="latest-button-content">&nbsp;</div>
-					</div>
-		 	 		<div class="latest-data">
-						<div class="latest-data-content">Distance</div>
-						<div class="latest-data-content">Moving Time</div>
-						<div class="latest-data-content"><!--avgtext-->pace<!--/avgtext--></div>
-						<div id="latest-button-button">
-                            <!--button--><button class="strava-button strava-black strava-round-xxlarge" onclick="window.open('https://www.strava.com/activities/4273993379');">details</button><!--/button-->
-                        </div>
-		 	 		</div>
-			 	 </div>
+	 	 <div id="latest-container-table">
+	 	 	 <div class="latest-container-row">
+	 	 	 	 <div class="latest-container-cell">
+		 	 		
+						<div id="latest-content"><h3>Latest activity</h3>
+						<div id="latest-date"><!--latestdate--> Sun Nov 01 2020, 02:26:43 pm <!--/latestdate--></div>
+						<div id="latest-type-location"><!--latesttype-->afternoon run  - Eugene Oregon</div>
+							<div id="latest-table">
+								<div class="latest-data">
+									<div class="latest-data-content"><!--latestdistance--> 3.01 miles <!--/latestdistance--></div>
+									<div class="latest-data-content"><!--latesttime--> 00:29:33 <!--/latesttime--></div>
+									<div class="latest-data-content"><!--latestavgspeed--> 9:50 <!--/latestavgspeed--></div>
+									<div id="latest-button-content">&nbsp;</div>
+								</div>
+								<div class="latest-data">
+									<div class="latest-data-content">Distance</div>
+									<div class="latest-data-content">Moving Time</div>
+									<div class="latest-data-content"><!--latestavgtext--> pace <!--/latestavgtext--></div>
+									<div id="latest-button-button"><!--latestbutton--><button class="strava-button strava-black strava-round-xxlarge" onclick="window.open('https://www.strava.com/activities/4273993379');">details</button><!--/latestbutton--></div>
+								</div>
+							</div>
+						</div>
+	 	 
+	 	 	 	 </div>
+	 	 	 	 
+	 	 	 	 <div class="latest-container-cell">
+	 	 
+						<div id="kom-content"><h3>latest KOM</h3>
+						<div id="kom-date"><!--komdate--> Wed Jun 10 2020, 05:29:37 pm <!--/komdate--></div>
+						<div id="kom-type-location">Activity:<!--komtype--> Ride <!--/komtype-->-> Segment:<!--komname--> Priceboro <!--/komname-->-><!--komlocation--> Harrisburg OR <!--/komlocation--></div>
+							<div id="kom-table">
+								<div class="kom-data">
+									<div class="kom-data-content"><!--komdistance--> 3.20 miles <!--/komdistance--></div>
+									<div class="kom-data-content"><!--komtime--> 00:08:06 <!--/komtime--></div>
+									<div class="kom-data-content"><!--komavgspeed--> 23.70 <!--/komavgspeed--></div>
+									<div class="kom-data-content">&nbsp;</div>
+								</div>
+								<div class="kom-data">
+									<div class="kom-data-content">Distance</div>
+									<div class="kom-data-content">Moving Time</div>
+									<div class="kom-data-content"><!--komavgtext--> mi/h avg <!--/komavgtext--></div>
+									<div id="latest-button-button"><!--kombutton--><button class="strava-button strava-black strava-round-xxlarge" onclick="window.open('https://www.strava.com/segments/5160058');">details</button><!--/kombutton--></div>
+								</div>
+							</div>
+						</div>
+	 	 
+	 	 	 	 </div>
+	 	 	 	 
+	 	 	 </div>
 	 	 </div>
+	 	 
 	</div>
 	
 	<div id="all-stats">
