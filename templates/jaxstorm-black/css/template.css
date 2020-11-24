@@ -708,7 +708,7 @@ hr {
 	height: 1%;
 }
 
-#latest-button-button { /* scott added */
+.latest-button-button { /* scott added */
 	display: table-cell;
 	height: 99%;
 }
