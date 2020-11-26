@@ -607,7 +607,7 @@ hr {
 	background-position: center;
 	background-color: #000000;
 	overflow: auto;
-	min-width: 960px;
+	min-width: 1200px;
 	min-height: 400px;
 	margin-bottom: -1px; /* iPhone/iPad fix */
 	padding-bottom: 75px;
@@ -690,6 +690,11 @@ hr {
 	display: block;
 }
 
+.latest-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	/* https://www.sitepoint.com/rowspans-colspans-in-css-tables/ */
+	position: relative;
+}
+
 #latest-table { /* div table for distance, moving time, pace */  /* scott added */
 	display: table;
 }
@@ -703,14 +708,15 @@ hr {
 	padding-right: 35px;
 }
 
-#latest-button-space { /* scott added */
-	display: table-cell;
-	height: 1%;
+.latest-rowspanned { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	position: absolute;
+    /* https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
-
-.latest-table-button { /* scott added */
-	display: table-cell;
-	height: 99%;
+.latest-empty { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	border: none;
 }
 
 #kom-content { /* scott added */
@@ -752,6 +758,11 @@ hr {
 	display: block;
 }
 
+.kom-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	/* https://www.sitepoint.com/rowspans-colspans-in-css-tables/ */
+	position: relative;
+}
+
 #kom-table { /* scott added */
 	display: table;
 }
@@ -765,6 +776,17 @@ hr {
 	padding-right: 35px;
 }
 
+.kom-rowspanned { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	position: absolute;
+    /* https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.kom-empty { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	border: none;
+}
+
 #total-stats { /* scott added */
 	margin: auto;
 	margin-top: -33px;
@@ -774,7 +796,7 @@ hr {
 	background-position: center;
 	background-color: #000000;
 	overflow: auto;
-	min-width: 960px;
+	min-width: 1200px;
 	min-height: 400px;
 	margin-bottom: -1px; /* iPhone/iPad fix */
 	padding-bottom: 75px;
@@ -815,7 +837,7 @@ hr {
 	display: table-row;
 }
 
-#total-days-data-cell { /* scott added */
+#total-days-value-cell { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -841,13 +863,26 @@ hr {
 	display: table-row;
 }
 
-.total-activities-data-cell { /* scott added */
+.total-activities-value-cell { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+}
+.total-activities-komvalue-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	/* circle css */
+	border-radius: 60%;
+	width: 20px;
+	height: 20px;
+	border: 2px solid #FE0C0B;
 }
 
 .total-activities-name-cell { /* scott added */
@@ -871,7 +906,7 @@ hr {
 	display: table-row;
 }
 
-.total-miles-data-cell { /* scott added */
+.total-miles-value-cell { /* scott added */
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
@@ -881,6 +916,163 @@ hr {
 }
 
 .total-miles-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#ytd-stats { /* scott added */
+	margin: auto;
+	margin-top: -33px;
+	background-image: url('../../../images/sampledata/ytd_stats_background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 1200px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#ytd-stats::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#ytd-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
+	margin-left: 500px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#ytd-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#ytd-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#ytd-days-table { /* div table for total time stats */ /* scott added */
+	margin-left: 500px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.ytd-days-table-row { /* scott added */
+	display: table-row;
+}
+
+#ytd-days-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 315px;
+	height: 31px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+}
+
+#ytd-days-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#ytd-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
+	margin-left: 410px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.ytd-activities-table-row { /* scott added */
+	display: table-row;
+}
+
+.ytd-activities-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 140px;
+	height: 27px;
+	border: 2px solid #019cff;
+	border-radius: 66%;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	padding-top: 10px;
+}
+.ytd-activities-komvalue-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.ytd-activities-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#ytd-miles-table { /* div table for total distance, elevation stats */ /* scott added */
+	margin-left: 450px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.ytd-miles-table-row { /* scott added */
+	display: table-row;
+}
+
+.ytd-miles-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 185px;
+	height: 30px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+}
+
+.ytd-miles-name-cell { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
