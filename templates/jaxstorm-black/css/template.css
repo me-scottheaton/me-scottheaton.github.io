@@ -574,8 +574,8 @@ hr {
 	background-position: center;
 	background-color: #000000;
 	overflow: auto;
-	min-width: 960px;
-	min-height: 460px;
+	min-width: 1200px;
+	min-height: 400px;
 	/*margin-bottom: -1px; /* iPhone/iPad fix */
 	margin-bottom: -50px;
 }
@@ -932,15 +932,13 @@ hr {
 
 #home-rightmenu { /* scott added */
 	width: 190px;
-	margin: 0px;
-	padding: 0px;
 	padding-left: 17px;
-	padding-top: 31px;
-	margin-top: 24px;
+	padding-top: 30px;
+	margin-top: 0px;
 	margin-bottom: 30px;
 	margin-left: 13px;
 	float: right;
-	line-height: 1.7em;
+	line-height: 1.4em;
 	/* border-left: 1px solid #333333; */
 	background: rgba(0, 0, 0, 0.45);
 	color: #ffffff;
@@ -1059,12 +1057,6 @@ hr {
 }
 
 
-
-
-
-
-
-
 /** Content **/
 
 #content-w1 {  /** left and right menu visible **/
@@ -1080,7 +1072,7 @@ hr {
 	float: left;
 	padding-top: 20px;
 	overflow: hidden;
-	margin-top: 75px;
+	margin-top: 32px;
 	margin-bottom: 30px;
 	background: rgba(0, 0, 0, 0.5);
 	color: #ffffff;
@@ -2384,21 +2376,31 @@ body.contentpane a:hover {
 
 /* Data Viz iframe */
 
-#frame {
+#datavizframe {
 	background-color: #000000;
-	min-width: 960px;
+	min-width: 1200px;
+}
+
+#frame {
+	padding: 24px 0 40px 0;
+	clear: both;
+	position: relative;
+	width: 1200px;
+	margin: auto;
 }
 
 .frame_container {
-	padding: 24px 0 10px 0;
-    clear: both;
-	margin: auto;
-	display: block;
-	width: 1200px;
-	height: 460px;
+	width:1200px;
+	height:460px;
 	overflow:hidden;
 	position:relative;
 	z-index: 1;
+}
+
+.frame_container iframe {
+	display: block;
+	width:1200px;
+	height:460px;
 }
 
 /* Strava iframe */
@@ -2419,4 +2421,3 @@ body.contentpane a:hover {
 	position:relative;
 	z-index: 1;
 }
-
