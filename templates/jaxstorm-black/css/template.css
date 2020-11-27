@@ -1082,6 +1082,163 @@ hr {
 	padding-right: 30px;
 }
 
+#two19-stats { /* scott added */
+	margin: auto;
+	margin-top: -33px;
+	background-image: url('../../../images/sampledata/2019_stats_background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 1200px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#two19-stats::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#two19-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
+	margin-left: 814px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#two19-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#two19-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#two19-days-table { /* div table for total time stats */ /* scott added */
+	margin-left: 825px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.two19-days-table-row { /* scott added */
+	display: table-row;
+}
+
+#two19-days-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 315px;
+	height: 31px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+}
+
+#two19-days-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#two19-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
+	margin-left: 810px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.two19-activities-table-row { /* scott added */
+	display: table-row;
+}
+
+.two19-activities-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 140px;
+	height: 27px;
+	border: 2px solid #019cff;
+	border-radius: 66%;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	padding-top: 10px;
+}
+.two19-activities-komvalue-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.two19-activities-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#two19-miles-table { /* div table for total distance, elevation stats */ /* scott added */
+	margin-left: 778px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.two19-miles-table-row { /* scott added */
+	display: table-row;
+}
+
+.two19-miles-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 185px;
+	height: 30px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+}
+
+.two19-miles-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
 /** Breadcrumbs **/
 
 #breadcrumbs {
