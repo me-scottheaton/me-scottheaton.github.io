@@ -842,6 +842,7 @@ hr {
 	font-size: 1.575rem;
 	text-align: center;
 	color: #ffffff;
+	white-space: nowrap;
 }
 
 #total-days-name-cell { /* scott added */
@@ -850,6 +851,7 @@ hr {
 	font-size: 1.005rem;
 	text-align: center;
 	color: #ffffff;
+	white-space: nowrap;
 }
 
 #total-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
@@ -870,6 +872,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 .total-activities-komvalue-cell { /* scott added */
 	display: table-cell;
@@ -883,6 +886,7 @@ hr {
 	width: 20px;
 	height: 20px;
 	border: 2px solid #FE0C0B;
+	white-space: nowrap;
 }
 
 .total-activities-name-cell { /* scott added */
@@ -893,6 +897,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #total-miles-table { /* div table for total distance, elevation stats */ /* scott added */
@@ -913,6 +918,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 .total-miles-name-cell { /* scott added */
@@ -923,6 +929,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #ytd-stats { /* scott added */
@@ -988,6 +995,7 @@ hr {
 	color: #019cff;
 	border-radius: 60%;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 
 #ytd-days-name-cell { /* scott added */
@@ -996,10 +1004,11 @@ hr {
 	font-size: 1.005rem;
 	text-align: center;
 	color: #ffffff;
+	white-space: nowrap;
 }
 
 #ytd-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
-	margin-left: 410px;
+	margin-left: 405px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1024,6 +1033,7 @@ hr {
 	background-color: rgba(255,255,255,0.75);
 	color: #019cff;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 .ytd-activities-komvalue-cell { /* scott added */
 	display: table-cell;
@@ -1032,6 +1042,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 .ytd-activities-name-cell { /* scott added */
@@ -1042,6 +1053,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #ytd-miles-table { /* div table for total distance, elevation stats */ /* scott added */
@@ -1070,6 +1082,7 @@ hr {
 	color: #019cff;
 	border-radius: 60%;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 
 .ytd-miles-name-cell { /* scott added */
@@ -1080,6 +1093,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #twoKnineteen-stats { /* scott added */
@@ -1145,6 +1159,7 @@ hr {
 	color: #019cff;
 	border-radius: 60%;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 
 #twoKnineteen-days-name-cell { /* scott added */
@@ -1153,6 +1168,7 @@ hr {
 	font-size: 1.005rem;
 	text-align: center;
 	color: #ffffff;
+	white-space: nowrap;
 }
 
 #twoKnineteen-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
@@ -1181,6 +1197,7 @@ hr {
 	background-color: rgba(255,255,255,0.75);
 	color: #019cff;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 .twoKnineteen-activities-komvalue-cell { /* scott added */
 	display: table-cell;
@@ -1199,6 +1216,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #twoKnineteen-miles-table { /* div table for total distance, elevation stats */ /* scott added */
@@ -1227,6 +1245,7 @@ hr {
 	color: #019cff;
 	border-radius: 60%;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 
 .twoKnineteen-miles-name-cell { /* scott added */
@@ -1237,6 +1256,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #twoKeighteen-stats { /* scott added */
@@ -1302,6 +1322,7 @@ hr {
 	color: #019cff;
 	border-radius: 60%;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 
 #twoKeighteen-days-name-cell { /* scott added */
@@ -1310,10 +1331,11 @@ hr {
 	font-size: 1.005rem;
 	text-align: center;
 	color: #ffffff;
+	white-space: nowrap;
 }
 
 #twoKeighteen-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
-	margin-left: 162px;
+	margin-left: 149px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1338,6 +1360,7 @@ hr {
 	background-color: rgba(255,255,255,0.75);
 	color: #019cff;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 .twoKeighteen-activities-komvalue-cell { /* scott added */
 	display: table-cell;
@@ -1356,10 +1379,11 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 #twoKeighteen-miles-table { /* div table for total distance, elevation stats */ /* scott added */
-	margin-left: 119px;
+	margin-left: 117px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1384,6 +1408,7 @@ hr {
 	color: #019cff;
 	border-radius: 60%;
 	padding-top: 10px;
+	white-space: nowrap;
 }
 
 .twoKeighteen-miles-name-cell { /* scott added */
@@ -1394,6 +1419,7 @@ hr {
 	color: #ffffff;
 	padding-left: 30px;
 	padding-right: 30px;
+	white-space: nowrap;
 }
 
 /** Breadcrumbs **/
