@@ -1422,6 +1422,179 @@ hr {
 	white-space: nowrap;
 }
 
+#twoKten-stats { /* scott added */
+	margin: auto;
+	margin-top: -33px;
+	background-image: url('../../../images/sampledata/2010_stats_background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 1200px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#twoKten-stats::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#twoKten-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
+	margin-left: 810px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#twoKten-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#twoKten-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#twoKten-days-table { /* div table for total time stats */ /* scott added */
+	margin-left: 822px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.twoKten-days-table-row { /* scott added */
+	display: table-row;
+}
+
+#twoKten-days-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 315px;
+	height: 31px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+
+#twoKten-days-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	white-space: nowrap;
+}
+
+#twoKten-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
+	margin-left: 802px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.twoKten-activities-table-row { /* scott added */
+	display: table-row;
+}
+
+.twoKten-activities-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 140px;
+	height: 27px;
+	border: 2px solid #019cff;
+	border-radius: 66%;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+.twoKten-activities-komvalue-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.twoKten-activities-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	white-space: nowrap;
+}
+
+#twoKten-miles-table { /* div table for total distance, elevation stats */ /* scott added */
+	margin-left: 770px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.twoKten-miles-table-row { /* scott added */
+	display: table-row;
+}
+
+.twoKten-miles-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 185px;
+	height: 30px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+
+.twoKten-miles-name-cell-left { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	white-space: nowrap;
+}
+.twoKten-miles-name-cell-right { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #019cff;
+	padding-left: 30px;
+	padding-right: 30px;
+	white-space: nowrap;
+}
+
 /** Breadcrumbs **/
 
 #breadcrumbs {
