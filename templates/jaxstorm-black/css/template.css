@@ -682,14 +682,6 @@ hr {
 	padding-bottom: 8px;
 }
 
-#latest-title { /* scott added */
-	padding-top: 95px;
-	color: #ffffff;
-	font-size: 3.375rem;
-	text-align: center;
-	display: block;
-}
-
 .latest-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
 	/* https://www.sitepoint.com/rowspans-colspans-in-css-tables/ */
 	position: relative;
@@ -748,14 +740,6 @@ hr {
 
 #kom-type-location { /* scott added */
 	padding-bottom: 8px;
-}
-
-#kom-title { /* scott added */
-	padding-top: 95px;
-	color: #ffffff;
-	font-size: 3.375rem;
-	text-align: center;
-	display: block;
 }
 
 .kom-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
@@ -1806,6 +1790,66 @@ hr {
 	margin-top: 20px;
 }
 
+#koms-container { /* scott added */
+	margin: auto;
+	background-image: url('../../../images/sampledata/koms_background.jpg');
+	background-size: 900px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 900px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#koms-container::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+/* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
+#koms-container-table {
+	display: table;
+}
+
+.koms-container-row { /* scott added */
+	display: table-row;
+}
+
+.koms-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
+}
+
+.koms-activity { /* scott added */
+	margin-left: 25px;
+	margin-top: 170px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 200px;
+	float: left;
+	line-height: 1.9em; /* line-height: 1.2em; */
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+.koms-activity::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.koms-details { /* scott added */
+	padding-top: 8px;
+}
 
 #content-top {
 	margin-bottom: 18px;
