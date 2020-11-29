@@ -568,6 +568,7 @@ hr {
 /** Content/Menu Wrap **/
 
 #homepage-content-menu_wrap_bg { /* scott added */
+	padding: 24px 0 40px 0;
 	background-image: url('../../../images/sampledata/home_background.jpg');
 	background-size: 1200px 400px;
 	background-repeat: no-repeat;
@@ -3131,7 +3132,7 @@ body.contentpane a:hover {
 }
 
 #frame {
-	padding: 24px 0 40px 0;
+	padding-bottom: 40px;
 	clear: both;
 	position: relative;
 	width: 1200px;
