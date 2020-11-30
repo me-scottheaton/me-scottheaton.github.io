@@ -1023,9 +1023,14 @@ hr {
 	display: table-cell;
 	font-size: 1.575rem;
 	text-align: center;
-	color: #ffffff;
-	padding-left: 30px;
-	padding-right: 30px;
+	/* circle css */
+	width: 140px;
+	height: 27px;
+	border: 2px solid #FE0C0B;
+	border-radius: 66%;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	padding-top: 10px;
 	white-space: nowrap;
 }
 
