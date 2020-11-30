@@ -1,604 +1,598 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://scottheaton.me/</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>1.00</priority>
+	<loc>http://scottheaton.me/</loc>
+	<lastmod>2020-11-30T07:49:26+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.html</loc>
+	<lastmod>2020-11-30T07:49:27+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020.html</loc>
+	<lastmod>2020-11-30T07:49:28+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling.html</loc>
+	<lastmod>2020-11-30T07:49:28+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling/koms.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling/koms.html</loc>
+	<lastmod>2020-11-30T07:49:28+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling/mar-22-2020.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling/mar-22-2020.html</loc>
+	<lastmod>2020-11-30T07:49:28+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling/apr-23-2020.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling/apr-23-2020.html</loc>
+	<lastmod>2020-11-30T07:49:29+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling/jun-10-2020.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling/jun-10-2020.html</loc>
+	<lastmod>2020-11-30T07:49:29+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling/jun-23-2020.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling/jun-23-2020.html</loc>
+	<lastmod>2020-11-30T07:49:29+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2020/cycling/jul-04-2020.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2020/cycling/jul-04-2020.html</loc>
+	<lastmod>2020-11-30T07:49:29+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019.html</loc>
+	<lastmod>2020-11-30T07:49:29+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling.html</loc>
+	<lastmod>2020-11-30T07:49:30+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/mar-30-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/mar-30-2019.html</loc>
+	<lastmod>2020-11-30T07:49:30+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/may-11-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/may-11-2019.html</loc>
+	<lastmod>2020-11-30T07:49:30+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/jun-01-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/jun-01-2019.html</loc>
+	<lastmod>2020-11-30T07:49:30+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/jun-09-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/jun-09-2019.html</loc>
+	<lastmod>2020-11-30T07:49:30+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/jul-19-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/jul-19-2019.html</loc>
+	<lastmod>2020-11-30T07:49:30+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/aug-14-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/aug-14-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/sep-14-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/sep-14-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/cycling/oct-15-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/cycling/oct-15-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/apr-08-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/apr-08-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/oct-10-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/oct-10-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/oct-18-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/oct-18-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/oct-20-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/oct-20-2019.html</loc>
+	<lastmod>2020-11-30T07:49:31+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/oct-24-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/oct-24-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/oct-26-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/oct-26-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/oct-30-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/oct-30-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-02-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-02-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-12-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-12-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-22-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-22-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-23-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-23-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-24-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-24-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-27-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-27-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2019/running/nov-28-2019.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2019/running/nov-28-2019.html</loc>
+	<lastmod>2020-11-30T07:49:32+01:00</lastmod>
+	<priority>0.4</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018/may-13-2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018/may-13-2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018/jul-07-2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018/jul-07-2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018/jul-08-2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018/jul-08-2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018/jul-14-2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018/jul-14-2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018/aug-19-2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018/aug-19-2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2018/sep-02-2018.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2018/sep-02-2018.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2012.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2012.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2012/apr-23-2012.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2012/apr-23-2012.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011.html</loc>
+	<lastmod>2020-11-30T07:49:33+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/mar-02-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/mar-02-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jun-21-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jun-21-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jun-26-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jun-26-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jul-01-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jul-01-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jul-10-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jul-10-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jul-14-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jul-14-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jul-20-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jul-20-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jul-23-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jul-23-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/jul-27-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/jul-27-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/aug-01-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/aug-01-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/aug-06-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/aug-06-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/aug-12-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/aug-12-2011.html</loc>
+	<lastmod>2020-11-30T07:49:34+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/aug-26-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/aug-26-2011.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/sep-03-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/sep-03-2011.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/sep-05-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/sep-05-2011.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/sep-09-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/sep-09-2011.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2011/oct-26-2011.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2011/oct-26-2011.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/jan-17-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/jan-17-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/jan-18-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/jan-18-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/feb-14-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/feb-14-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/feb-27-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/feb-27-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/feb-28-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/feb-28-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/mar-27-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/mar-27-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/apr-03-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/apr-03-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/apr-10-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/apr-10-2010.html</loc>
+	<lastmod>2020-11-30T07:49:35+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/may-22-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/may-22-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/may-29-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/may-29-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/may-30-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/may-30-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/jun-12-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/jun-12-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/jun-27-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/jun-27-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/aug-07-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/aug-07-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/aug-12-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/aug-12-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2010/oct-18-2010.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2010/oct-18-2010.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2009.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2009.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2009/oct-31-2009.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2009/oct-31-2009.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jan-01-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jan-01-2008.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jan-26-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jan-26-2008.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/feb-03-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/feb-03-2008.html</loc>
+	<lastmod>2020-11-30T07:49:36+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/feb-09-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/feb-09-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/apr-13-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/apr-13-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/may-04-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/may-04-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/may-25-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/may-25-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/may-30-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/may-30-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jun-08-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jun-08-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jun-22-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jun-22-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jul-12-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jul-12-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jul-19-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jul-19-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/jul-26-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/jul-26-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/aug-03-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/aug-03-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/aug-31-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/aug-31-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2008/nov-22-2008.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2008/nov-22-2008.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2007.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2007.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2007/apr-06-2007.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2007/apr-06-2007.html</loc>
+	<lastmod>2020-11-30T07:49:37+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2007/oct-07-2007.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2007/oct-07-2007.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2007/oct-14-2007.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2007/oct-14-2007.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2007/oct-23-2007.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2007/oct-23-2007.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2007/oct-28-2007.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2007/oct-28-2007.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.8</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/may-08-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/may-08-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/may-09-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/may-09-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/may-10-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/may-10-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/may-12-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/may-12-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/may-13-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/may-13-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/may-18-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/may-18-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jun-10-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jun-10-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jun-11-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jun-11-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jun-17-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jun-17-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jun-20-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jun-20-2006.html</loc>
+	<lastmod>2020-11-30T07:49:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jun-24-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jun-24-2006.html</loc>
+	<lastmod>2020-11-30T07:49:39+01:00</lastmod>
+	<priority>0.6</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jun-25-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jun-25-2006.html</loc>
+	<lastmod>2020-11-30T07:49:38+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jul-03-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jul-03-2006.html</loc>
+	<lastmod>2020-11-30T07:49:39+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
 <url>
-  <loc>http://scottheaton.me/index.php/2006/jul-08-2006.html</loc>
-  <lastmod>2020-11-30T05:28:33+00:00</lastmod>
-  <priority>0.80</priority>
+	<loc>http://scottheaton.me/index.php/2006/jul-08-2006.html</loc>
+	<lastmod>2020-11-30T07:49:39+01:00</lastmod>
+	<priority>1.0</priority>
 </url>
-
-
 </urlset>
