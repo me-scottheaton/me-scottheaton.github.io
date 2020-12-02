@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /ajax.googleapis.com/
 Disallow: /fonts.googleapis.com/
-Disallow: /images/gpxtracks/
 Disallow: /media/
 Disallow: /templates/
