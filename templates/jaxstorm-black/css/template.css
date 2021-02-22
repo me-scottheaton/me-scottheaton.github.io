@@ -938,7 +938,7 @@ hr {
 }
 
 #ytd-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
-	margin-left: 285px;
+	margin-left: 130px;
 	display: table;
 	padding-top: 50px;
 	display: block;
@@ -956,7 +956,7 @@ hr {
 }
 
 #ytd-days-table { /* div table for total time stats */ /* scott added */
-	margin-left: 285px;
+	margin-left: 135px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -992,7 +992,7 @@ hr {
 }
 
 #ytd-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
-	margin-left: 185px;
+	margin-left: 33px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1046,7 +1046,7 @@ hr {
 }
 
 #ytd-miles-table { /* div table for total distance, elevation stats */ /* scott added */
-	margin-left: 235px;
+	margin-left: 82px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1075,6 +1075,174 @@ hr {
 }
 
 .ytd-miles-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	white-space: nowrap;
+}
+
+#twoKtwenty-stats { /* scott added */
+	margin: auto;
+	background-image: url('../../../images/sampledata/2020_stats_background.jpg');
+	background-size: 900px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 900px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 0px;
+}
+
+#twoKtwenty-stats::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#twoKtwenty-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
+	margin-left: 285px;
+	display: table;
+	padding-top: 50px;
+	display: block;
+}
+
+#twoKtwenty-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#twoKtwenty-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+#twoKtwenty-days-table { /* div table for total time stats */ /* scott added */
+	margin-left: 285px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+}
+
+.twoKtwenty-days-table-row { /* scott added */
+	display: table-row;
+}
+
+#twoKtwenty-days-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 315px;
+	height: 31px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+
+#twoKtwenty-days-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	white-space: nowrap;
+}
+
+#twoKtwenty-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
+	margin-left: 185px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.twoKtwenty-activities-table-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwenty-activities-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 140px;
+	height: 27px;
+	border: 2px solid #019cff;
+	border-radius: 66%;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+.twoKtwenty-activities-komvalue-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 140px;
+	height: 27px;
+	border: 2px solid #FE0C0B;
+	border-radius: 66%;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+
+.twoKtwenty-activities-name-cell { /* scott added */
+	display: table-cell;
+	padding-top: 10px;
+	font-size: 1.005rem;
+	text-align: center;
+	color: #ffffff;
+	padding-left: 30px;
+	padding-right: 30px;
+	white-space: nowrap;
+}
+
+#twoKtwenty-miles-table { /* div table for total distance, elevation stats */ /* scott added */
+	margin-left: 235px;
+	display: table;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: block;
+	/* horizontal <length> | vertical <length> */
+	border-spacing: 17px 0px; /* add horizontal space between circles! */
+}
+
+.twoKtwenty-miles-table-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwenty-miles-value-cell { /* scott added */
+	display: table-cell;
+	font-size: 1.575rem;
+	text-align: center;
+	/* circle css */
+	width: 185px;
+	height: 30px;
+	border: 2px solid #019cff;
+	background-color: rgba(255,255,255,0.75);
+	color: #019cff;
+	border-radius: 60%;
+	padding-top: 10px;
+	white-space: nowrap;
+}
+
+.twoKtwenty-miles-name-cell { /* scott added */
 	display: table-cell;
 	padding-top: 10px;
 	font-size: 1.005rem;
