@@ -712,6 +712,425 @@ hr {
 	border: none;
 }
 
+#total-koms-container { /* scott added */
+	margin: auto;
+	background-image: url('../../../images/sampledata/total_koms_background.jpg');
+	background-size: 1200px 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 1200px;
+	min-height: 900px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#total-koms-container::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#total-koms-header-table { /* latest header */  /* scott added */
+	margin-left: 550px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#total-koms-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#total-koms-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+/* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
+#total-koms-container-table {
+	display: table;
+}
+
+.total-koms-container-row { /* scott added */
+	display: table-row;
+}
+
+.total-koms-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
+}
+
+#total-koms-activity { /* scott added */
+	margin-left: 100px;
+	margin-top: 120px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 380px;
+	float: left;
+	line-height: 1.9em;
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+#total-koms-activity::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+#total-koms-date { /* scott added */
+	padding-top: 8px;
+	line-height: 1.2em;
+}
+
+#total-koms-type-location { /* scott added */
+	padding-bottom: 8px;
+}
+
+.total-koms-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	/* https://www.sitepoint.com/rowspans-colspans-in-css-tables/ */
+	position: relative;
+}
+
+#total-koms-table { /* div table for distance, moving time, pace */  /* scott added */
+	display: table;
+}
+
+.total-koms-table-row { /* scott added */
+	display: table-row;
+}
+
+.total-koms-table-cell { /* scott added */
+	display: table-cell;
+	padding-right: 35px;
+}
+
+.total-koms-rowspanned { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	position: absolute;
+    /* https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.total-koms-empty { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	border: none;
+}
+
+#twoKtwentyOne-koms-container { /* scott added */
+	margin: auto;
+	background-image: url('../../../images/sampledata/2021_koms_background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 1200px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#twoKtwentyOne-koms-container::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#twoKtwentyOne-koms-header-table { /* latest header */  /* scott added */
+	margin-left: 550px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#twoKtwentyOne-koms-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#twoKtwentyOne-koms-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+/* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
+#twoKtwentyOne-koms-container-table {
+	display: table;
+}
+
+.twoKtwentyOne-koms-container-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwentyOne-koms-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
+}
+
+#twoKtwentyOne-koms-activity { /* scott added */
+	margin-left: 100px;
+	margin-top: 120px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 380px;
+	float: left;
+	line-height: 1.9em;
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+#twoKtwentyOne-koms-activity::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+#twoKtwentyOne-koms-date { /* scott added */
+	padding-top: 8px;
+	line-height: 1.2em;
+}
+
+#total-koms-type-location { /* scott added */
+	padding-bottom: 8px;
+}
+
+.twoKtwentyOne-koms-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	/* https://www.sitepoint.com/rowspans-colspans-in-css-tables/ */
+	position: relative;
+}
+
+#twoKtwentyOne-koms-table { /* div table for distance, moving time, pace */  /* scott added */
+	display: table;
+}
+
+.twoKtwentyOne-koms-table-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwentyOne-koms-table-cell { /* scott added */
+	display: table-cell;
+	padding-right: 35px;
+}
+
+.twoKtwentyOne-koms-rowspanned { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	position: absolute;
+    /* https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.twoKtwentyOne-koms-empty { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	border: none;
+}
+
+#twoKtwenty-koms-container { /* scott added */
+	margin: auto;
+	background-image: url('../../../images/sampledata/2020_koms_background.jpg');
+	background-size: 1200px 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	overflow: auto;
+	min-width: 1200px;
+	min-height: 400px;
+	margin-bottom: -1px; /* iPhone/iPad fix */
+	padding-bottom: 75px;
+}
+
+#twoKtwenty-koms-container::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.25);
+}
+
+#twoKtwenty-koms-header-table { /* latest header */  /* scott added */
+	margin-left: 550px;
+	display: table;
+	padding-top: 95px;
+	display: block;
+}
+
+#twoKtwenty-koms-header-table-row { /* scott added */
+	display: table-row;
+}
+
+#twoKtwenty-koms-header-table-cell { /* scott added */
+	display: table-cell;
+	font-size: 3.375rem;
+	text-align: center;
+	color: #ffffff;
+}
+
+/* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
+#twoKtwenty-koms-container-table {
+	display: table;
+}
+
+.twoKtwenty-koms-container-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwenty-koms-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
+}
+
+#twoKtwenty-koms-activity { /* scott added */
+	margin-left: 100px;
+	margin-top: 120px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 380px;
+	float: left;
+	line-height: 1.9em;
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+#twoKtwenty-koms-activity::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+#twoKtwenty-koms-date { /* scott added */
+	padding-top: 8px;
+	line-height: 1.2em;
+}
+
+#twoKtwenty-koms-type-location { /* scott added */
+	padding-bottom: 8px;
+}
+
+.twoKtwenty-koms-tablewrapper { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	/* https://www.sitepoint.com/rowspans-colspans-in-css-tables/ */
+	position: relative;
+}
+
+#twoKtwenty-koms-table { /* div table for distance, moving time, pace */  /* scott added */
+	display: table;
+}
+
+.twoKtwenty-koms-table-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwenty-koms-table-cell { /* scott added */
+	display: table-cell;
+	padding-right: 35px;
+}
+
+.twoKtwenty-koms-rowspanned { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	position: absolute;
+    /* https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+.twoKtwenty-koms-empty { /* Rowspans & Colspans in CSS Tables */  /* scott added */
+	border: none;
+}
+
+/* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
+#twoKtwenty-nested-koms-container-table {
+	display: table;
+	margin-left: 78px;
+}
+
+.twoKtwenty-nested-koms-container-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwenty-nested-koms-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
+}
+
+.twoKtwenty-nested-koms-activity { /* scott added */
+	margin-left: 25px;
+	margin-top: 75px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 200px;
+	float: left;
+	line-height: 1.9em; /* line-height: 1.2em; */
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+.twoKtwenty-nested-koms-activity::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.twoKtwenty-nested-koms-details { /* scott added */
+	padding-top: 8px;
+}
+
+#twoKtwentyOne-nested-koms-container-table {
+	display: table;
+	margin-left: 78px;
+}
+
+.twoKtwentyOne-nested-koms-container-row { /* scott added */
+	display: table-row;
+}
+
+.twoKtwentyOne-nested-koms-container-cell { /* scott added */
+	display: table-cell;
+	padding-right: 10px;
+}
+
+.twoKtwentyOne-nested-koms-activity { /* scott added */
+	margin-left: 25px;
+	margin-top: 25px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 100%;
+	font: inherit;
+	text-align: left;
+	display: block;
+	width: 150px;
+	float: left;
+	line-height: 1.9em; /* line-height: 1.2em; */
+	background: rgba(0, 0, 0, 0.50);
+	color: #ffffff;
+}
+
+.twoKtwentyOne-nested-koms-activity::before { /* scott added */
+	content: "";
+	position: absolute;
+	background-color: rgba(0,0,0,0.50);
+}
+
+.twoKtwentyOne-nested-koms-details { /* scott added */
+	padding-top: 8px;
+}
+
 #kom-content { /* scott added */
 	margin-left: 20px;
 	margin-top: 120px;
@@ -938,7 +1357,7 @@ hr {
 }
 
 #ytd-header-table { /* div table for distance, moving time, pace, etc */ /* scott added */
-	margin-left: 130px;
+	margin-left: 285px;
 	display: table;
 	padding-top: 50px;
 	display: block;
@@ -956,7 +1375,7 @@ hr {
 }
 
 #ytd-days-table { /* div table for total time stats */ /* scott added */
-	margin-left: 135px;
+	margin-left: 285px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -992,7 +1411,7 @@ hr {
 }
 
 #ytd-activities-table { /* div table for rides, pictures, KOMs, activities stats */ /* scott added */
-	margin-left: 33px;
+	margin-left: 195px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -1046,7 +1465,7 @@ hr {
 }
 
 #ytd-miles-table { /* div table for total distance, elevation stats */ /* scott added */
-	margin-left: 82px;
+	margin-left: 235px;
 	display: table;
 	padding-top: 15px;
 	padding-bottom: 15px;
