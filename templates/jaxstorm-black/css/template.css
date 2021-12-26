@@ -860,6 +860,8 @@ hr {
 	font-size: 3.375rem;
 	text-align: center;
 	color: #ffffff;
+	margin-bottom: 0px;
+	line-height: 0em;
 }
 
 /* https://www.dummies.com/web-design-development/css3/using-the-div-tag-to-create-tables/ */
