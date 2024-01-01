@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /ajax.googleapis.com/
-Disallow: /fonts.googleapis.com/
-Disallow: /media/
-Disallow: /templates/
